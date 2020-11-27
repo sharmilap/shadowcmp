@@ -1,4 +1,4 @@
-function shadowcmp() {
+function shadowcmp(options) {
     let boxes = document.querySelectorAll('.shadowcmp');
 
     if(options.shadow_type === "big")
